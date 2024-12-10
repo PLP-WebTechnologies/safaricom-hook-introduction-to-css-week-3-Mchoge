@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        /* Internal CSS */
+        h1 {
+            font-size: 36px; /* Element Selector */
+        }
+        
+        .section {
+            background-color: lightblue; /* Class Selector */
+            padding: 20px;
+        }
+        
+        #uniqueElement {
+            border: 2px solid black; /* ID Selector */
+            padding: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Welcome to My Webpage</h1>
+    <p>This is a simple paragraph demonstrating the use of CSS selectors.</p>
+    
+    <div class="section">
+        <h2>This is a section with a background color</h2>
+        <p>The section background color is applied using a class selector.</p>
+    </div>
+
+    <div id="uniqueElement">
+        <p>This element has a unique border applied using the ID selector.</p>
+    </div>
+
+</body>
+</html>
